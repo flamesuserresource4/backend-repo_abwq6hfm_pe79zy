@@ -1,0 +1,14 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [153] using StatReload
+INFO:     Started server process [155]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:48202 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:48956 - "OPTIONS /api/donations/create-order HTTP/1.1" 200 OK
+INFO:     172.20.0.1:48956 - "POST /api/donations/create-order HTTP/1.1" 200 OK
+INFO:     172.20.0.1:48956 - "OPTIONS /api/donations/confirm HTTP/1.1" 200 OK
+INFO:     172.20.0.1:48968 - "POST /api/donations/confirm HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40668 - "POST /api/badge/generate HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46854 - "GET /api/donations/ORD-1763491234/receipt.pdf HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46850 - "GET /favicon.ico HTTP/1.1" 404 Not Found
